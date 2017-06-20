@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<form action="/target_urls" method="POST">
+    <input type="text" name="text" alt="Введите ссылку на профиль в FaceBook">
+    <input type="submit" value="Добавить">
+</form>
+    <ul>
+    {% for target in target_urls %}
+        <li>{{ target[0] }} ------<a href="img/{{ target[0] }}">{{ target[1] }}</a> </li>
+    {% endfor %}
+
+    </ul>
+
+{% endblock %}

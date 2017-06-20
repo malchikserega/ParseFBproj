@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <ul>
+    {% for photo in photos %}
+        <li>{{ photo[0] }} <img src="{{ photo[1] }}" alt="NO Photo!"></li>
+    {% endfor %}
+
+    </ul>
+
+{% endblock %}
