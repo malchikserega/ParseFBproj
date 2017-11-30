@@ -1,2 +1,2 @@
 # ParseFBproj
-Thanks a lot stevenvo from Amazon it is alpha version
+Thanks a lot Steve from Amazon it is alpha version
